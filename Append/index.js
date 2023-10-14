@@ -35,7 +35,7 @@ form.addEventListener('submit', e => {
     // Check if all input fields have the "success" class (indicating they are valid).
     if (document.querySelectorAll('.success').length === 4) {
         // If all fields are valid, redirect to the dashboard.html page.
-        window.location.href = 'index.html';
+        window.location.href = 'dashboard.html';
     }
     // Call the validateInputs function to perform field validation.
     validateInputs();
